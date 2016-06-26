@@ -1,0 +1,3 @@
+variable "digitaloceantoken" {
+	digitaloceantoken = ""
+}
