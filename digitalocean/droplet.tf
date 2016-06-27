@@ -13,3 +13,7 @@ resource "digitalocean_droplet" "test" {
     region = "nyc2"
     size = "512mb"
 }
+
+provisioner "local-exec" {
+	command = "echo ${~/repos/ansible/ansible-playbook common.yml}
+}
